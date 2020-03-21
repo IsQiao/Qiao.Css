@@ -1,3 +1,36 @@
-body {
-  background-color: gainsboro;
+input {
+  outline: none;
+  border: none;
+
+  $input-font-size-s: 9px;
+  $input-height-s: 31px;
+
+  .form {
+    .from-group {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &.q-input {
+    position: relative;
+    display: block;
+    background: #fff;
+    color: #8f8fa1;
+
+    &.q-input-m {
+      line-height: 1.2;
+      height: 2*$input-height-s;
+      border-radius: $input-height-s;
+      padding: 0 35px;
+      font-size: 2*$input-font-size-s;
+    }
+
+    &.q-input-s {
+      line-height: 1.2;
+      height: 30px;
+      border-radius: 15px;
+      padding: 0 17px;
+      font-size: 9px;
+    }
+  }
 }

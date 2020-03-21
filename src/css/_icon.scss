@@ -1,0 +1,9 @@
+.i {
+    padding: 10px;
+    background-repeat: no-repeat;
+    display: inline-block;
+
+    &.i-search {
+        background-image: url(../svgs/solid/search.svg);
+    }
+}

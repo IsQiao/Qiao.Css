@@ -1,15 +1,19 @@
+.form {
+  .from-group {
+    margin-bottom: 1rem;
+  }
+}
+
+.input-box {
+  position: relative;
+}
+
 input {
   outline: none;
   border: none;
 
   $input-font-size-s: 9px;
   $input-height-s: 31px;
-
-  .form {
-    .from-group {
-      margin-bottom: 1rem;
-    }
-  }
 
   &.q-input {
     position: relative;
